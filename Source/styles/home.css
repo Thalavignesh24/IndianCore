@@ -1,0 +1,42 @@
+#container img{
+  margin-left:22%;
+  border:10px solid orange;
+  border-radius:500px;
+}
+
+#container h1{
+  margin-top:30%;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-family:;
+  color:red;
+}
+
+#container button{
+  padding:30px;
+  width:370px;
+  font-size:30px;
+  margin-left:6%;
+  font-weight: bold;
+  background-color:green;
+  border-radius:15px;
+}
+
+#container a{
+  text-decoration:none;
+  color:white;
+  font-family:Gerogia;
+}
+
+#container{
+  width:900px;
+  height:1500px;
+  border:10px solid;
+  margin:8% 0% 0% 2%;
+  border-radius:500px;
+  background-color: transparent;
+}
+
+body{
+  background-color:black;
+}
