@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <script src="scripts/jQuery.js"></script>
+  <script src="scripts/LoginValidation.js"></script>
 
   <title>sign in</title>
 
@@ -29,10 +31,14 @@
       <div id="sub-container">
         <img src="https://res.cloudinary.com/dfgwcxpwt/image/upload/v1694501708/IndianTechnology/user_profile_logo.png" />&nbsp;&nbsp;
         <input type="email" id="inp1" name="email" placeholder="Email" />
-        <br><br><br><br>
+        <br>
+        <p id="emailMsg"></p>
+        <br><br>
         <img src="https://res.cloudinary.com/dfgwcxpwt/image/upload/v1694501847/IndianTechnology/password_logo.png" />&nbsp;&nbsp;
         <input type="password" id="inp2" name="pwd" placeholder="Password" />
-        <br><br>&nbsp;
+        <br>
+        <p id="passMsg"></p>
+        <br>&nbsp;
         <a href="#" id="a1">Forgot password?</a><br><br><br><br>&nbsp;&nbsp;
         <input type="submit" id="log" name="submit" value="Login" /><br><br>
 
