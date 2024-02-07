@@ -11,17 +11,18 @@ $(document).ready(function() {
 
     if (!name) {
       alert("Name should not be empty");
-      return;
+      //$("#registerForm").submit();
+      return false;
     }
 
     if (!email) {
       alert("Email should not be empty");
-      return;
+      return false;
     }
 
     if (!dob) {
       alert("DOB should not be empty");
-      return;
+      return false;
     }
  
       let dob1 = new Date(dob);
@@ -31,21 +32,22 @@ $(document).ready(function() {
 
     if (!phone) {
       alert("Phone number should not be empty");
-      return;
+      return false;
     }
 
     if (!new_pass) {
       alert("New password should not be empty");
-      return;
+      return false;
     }
 
     if (!con_pass) {
       alert("Confirm password should not be empty ");
-      return;
+      return false;
     }
     
     if(new_pass!==con_pass){
       alert("Confirm password and password are mismatch");
+      return false;
     }
 
   });

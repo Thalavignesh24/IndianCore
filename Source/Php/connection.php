@@ -3,7 +3,7 @@
 $hostname="127.0.0.1";
 $username="root";
 $password="root";
-$dbname="test";
+$dbname="main_customer";
 
 $conn = mysqli_connect($hostname,$username,$password,$dbname);
 
