@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Register</title>
-  <link rel="stylesheet" href="styles/register.css" />
+  <link rel="stylesheet" href="styles/register.css">
   <script src="scripts/jQuery.js"></script>
   <script src="scripts/RegisterValidation.js"></script>
 </head>
@@ -24,50 +24,67 @@
     <div id="container">
 
       <div id="sub-container">
-        
+
         <form action="http://0.0.0.0:8080/Php/Register.php" method="POST">
 
-        <label>Name<sup>*</sup></label><br><br>
+          <label>Name<sup>*</sup></label><br>
 
-        <input type="text" id="fn" name="name" placeholder="Enter your name"><br><br>
+          <input type="text" id="fn" name="name" placeholder="Enter your name">
+          <p id="val1"></p><br>
 
-        <label>Email<sup>*</sup></label><br><br>
 
-        <input type="email" id="em" name="email" placeholder="Enter your email"><br><br>
+          <label>Email<sup>*</sup></label><br>
 
-        <label>Date of birth<sup>*</sup></label><br><br>
+          <input type="email" id="em" name="email" placeholder="Enter your email">
+          <p id="val2"></p><br>
 
-        <input type="date" id="db" name="date"><br><br>
 
-        <label>Age<sup>*</sup></label><br><br>
+          <label>Date of birth<sup>*</sup></label><br>
 
-        <input type="number" id="ag" name="age" placeholder="Age" readonly><br><br>
+          <input type="date" id="db" name="date"><br>
+          <p id="val3"></p><br>
 
-        <label>Mobile number<sup>*</sup></label><br><br>
 
-        <input type="number" id="ph" name="phone" placeholder="Enter your phone number"><br><br>
+          <label>Age<sup>*</sup></label><br>
 
-        <label>New password<sup>*</sup></label><br><br>
+          <input type="number" id="ag" name="age" placeholder="Age"><br>
+          <p id="val4"></p><br>
 
-        <input type="password" id="ip" name="ipassword" placeholder="Enter your new password"><br><br>
 
-        <label>Confirm password<sup>*</sup></label><br><br>
+          <label>Mobile number<sup>*</sup></label>
 
-        <input type="password" id="cp" name="cpassword" placeholder="Enter your confirm password"><br><br>
+          <input type="number" id="ph" name="phone" placeholder="Enter your phone number">
+          <p id="val5"></p><br>
 
-        <label>Country<sup>*</sup></label><br><br>
 
-        <select id="cn" name="country">
+          <label>New password<sup>*</sup></label>
 
-          <option value="">Select your country</option>
-          <option>India</option>
+          <input type="password" id="ip" name="ipassword" placeholder="Enter your new password">
+          <p id="val6"></p><br>
 
-        </select><br><br><br>
 
-        <input type="submit" id="sub" name="submit" value="Register"><br><br><b>
+          <label>Confirm password<sup>*</sup></label>
 
-        <span id="redirect">Already a member?<a href="http://localhost:7700/Source/index.html">signin</a> here</span>
-        
+          <input type="password" id="cp" name="cpassword" placeholder="Enter your confirm password">
+          <p id="val7"></p><br>
+
+
+
+          <label>Country<sup>*</sup></label>
+
+          <select id="cn" name="country">
+
+            <option value="">Select your country</option>
+            <option>India</option>
+
+          </select><br>
+          <p id="val8"></p>
+
+          <br>
+          <input type="submit" id="sub" name="submit" value="Register"><br><br><b>
+
+            <span id="redirect">Already a member?<a href="http://localhost:7700/Source/index.html">signin</a> here</span>
+
         </form>
 
       </div>

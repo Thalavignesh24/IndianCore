@@ -16,7 +16,8 @@ if(isset($_POST["submit"])){
     $query = mysqli_query($conn,$insert);
     
     if($query){
-        echo "inserted";
+        header("http://localhost:7700/Source/index.html");
+        exit;
     }else{
         die("Connection failed: " .$conn->connect_error);
     }

@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-  background-color:skyblue;
+  background-color: skyblue;
   margin: 15% 5% 0% 25%;
   width: 500px;
   height: 100px;
@@ -14,8 +14,8 @@ body {
 #sub-header h1 {
   text-align: center;
   padding: 38px 0px 0px 0px;
-  color:red;
-  font-weight:bold;
+  color: red;
+  font-weight: bold;
 }
 
 #container {
@@ -61,6 +61,11 @@ body {
   font-style: italic;
   font-family: monospace;
   font-weight: bold;
-  background-color:lightseagreen;
+  background-color: lightseagreen;
   font-size: 20px;
+}
+
+p {
+  color: red;
+  margin-left:50px;
 }
